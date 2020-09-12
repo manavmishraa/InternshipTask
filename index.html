@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Login Form</title>
+	<link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+	
+<div class="wrapper">
+  <div class="title">
+    <h1>User Details</h1>
+    </div>
+    <div class="contact-form">
+      <div class="input-fields">
+      <form action="" method="post"> 
+      <input type="text" class="input" placeholder="Full Name" required>    
+      <input type="email" class="input" placeholder="Enter your Email" required>
+      <input type="tel" class="input" placeholder="Contact no." pattern="^\d{10}$" required>
+      <div id="selectPlan">Select Plan</div>
+      <br>
+      <label for="standard" class="planName1">Standard</label>
+      <input name="planChoice" type="radio" class="input" placeholder="Plan">
+      <label for="Advanced" class="planName2">Advanced</label>
+      <input name="planChoice" type="radio" class="input" placeholder="Plan">
+      <label for="Pro" class="planName3">Pro</label>
+      <input name="planChoice" type="radio" class="input" placeholder="Plan">
+      <input type ="submit" id="nxt" value="Next">
+      </form>
+    </div>
+  </div>
+</div>
+	
+</body>
+</html>
